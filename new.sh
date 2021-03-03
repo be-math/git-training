@@ -14,4 +14,6 @@ if [[ $1 != "" ]]; then
   git commit -a -m "$1"
 else
   echo "No arg !"
+  exit 1
 fi 
+exit 0
